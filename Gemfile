@@ -13,7 +13,7 @@ gemspec
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
-gem 'haml'
+gem 'haml', '~> 3.1.4'
 group :test, :development do
-  gem 'steak', '~> 2.0.0'
+  gem 'steak'
 end
